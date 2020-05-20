@@ -1,5 +1,5 @@
 import React from 'react';
-import { List, Datagrid, TextField } from 'react-admin';
+import { List, Datagrid, TextField, ImageField } from 'react-admin';
 
 export const CategoryList = (props) => (
     <List {...props}>
@@ -7,7 +7,7 @@ export const CategoryList = (props) => (
             <TextField source="id" />
             <TextField source="name" />
             <TextField source="createdDate" />
-            <TextField source="imgUrl" />
+            <ImageField source="imgUrl" />
         </Datagrid>
     </List>
 );
