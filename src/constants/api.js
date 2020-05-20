@@ -1,0 +1,1 @@
+export const API_URL = process.env.NODE_ENV === 'production' ? 'https://us-central1-arenawallpaper.cloudfunctions.net/api' : 'http://localhost:5000/arenawallpaper/us-central1/api'

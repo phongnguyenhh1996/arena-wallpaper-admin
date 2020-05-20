@@ -2,10 +2,13 @@ import React from 'react';
 import { Admin, Resource } from 'react-admin';
 import jsonServerProvider from 'ra-data-json-server';
 import { CategoryList } from './components/CategoryList'
+import authProvider from './authProvider'
+import { API_URL } from './constants/api'
 
-const dataProvider = jsonServerProvider('http://localhost:5000/arenawallpaper/us-central1/api');
+const dataProvider = jsonServerProvider(API_URL);
+
 const App = () => (
-  <Admin dataProvider={dataProvider} >
+  <Admin dataProvider={dataProvider} authProvider={authProvider} >
     <Resource name="categories" list={CategoryList}/>
   </Admin>  
 )
