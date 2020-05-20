@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/arena-wallpaper-admin/precache-manifest.d35fd3071c344deff64c2b1b757813ba.js"
+  "/arena-wallpaper-admin/precache-manifest.d0b1df68255fab35ead73f393be8c58a.js"
 );
 
 self.addEventListener('message', (event) => {
