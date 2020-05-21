@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "241dc832766dbf532cb5809f9fbe3738",
+    "revision": "cd5bdb56ffbda9f7e0eec5d425ed1494",
     "url": "/arena-wallpaper-admin/index.html"
   },
   {
-    "revision": "07ef415ef403a1810e7b",
+    "revision": "3bdb6062aaa33d261dd2",
     "url": "/arena-wallpaper-admin/static/css/main.5ecd60fb.chunk.css"
   },
   {
-    "revision": "8e1db07554b586b6a2de",
-    "url": "/arena-wallpaper-admin/static/js/2.aaac2316.chunk.js"
+    "revision": "0265e5334c1ffd07c9c9",
+    "url": "/arena-wallpaper-admin/static/js/2.19f6e298.chunk.js"
   },
   {
     "revision": "74302187dc1f033042b1164070a401c8",
-    "url": "/arena-wallpaper-admin/static/js/2.aaac2316.chunk.js.LICENSE.txt"
+    "url": "/arena-wallpaper-admin/static/js/2.19f6e298.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "07ef415ef403a1810e7b",
-    "url": "/arena-wallpaper-admin/static/js/main.652ec9b2.chunk.js"
+    "revision": "3bdb6062aaa33d261dd2",
+    "url": "/arena-wallpaper-admin/static/js/main.73baa246.chunk.js"
   },
   {
     "revision": "d787511942809404c772",
