@@ -7,7 +7,8 @@ export const CategoryList = (props) => (
             <TextField source="id" />
             <TextField source="name" />
             <TextField source="createdDate" />
-            <ImageField source="imgUrl" />
+            <TextField source="viewCount" />
+            <ImageField source="imageUrl.data.imageUrl" title="Image" />
         </Datagrid>
     </List>
 );
