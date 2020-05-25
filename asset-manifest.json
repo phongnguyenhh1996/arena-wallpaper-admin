@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/arena-wallpaper-admin/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/arena-wallpaper-admin/static/js/main.73baa246.chunk.js",
-    "main.js.map": "/arena-wallpaper-admin/static/js/main.73baa246.chunk.js.map",
+    "main.js": "/arena-wallpaper-admin/static/js/main.e7900be9.chunk.js",
+    "main.js.map": "/arena-wallpaper-admin/static/js/main.e7900be9.chunk.js.map",
     "runtime-main.js": "/arena-wallpaper-admin/static/js/runtime-main.2fa121a3.js",
     "runtime-main.js.map": "/arena-wallpaper-admin/static/js/runtime-main.2fa121a3.js.map",
-    "static/js/2.19f6e298.chunk.js": "/arena-wallpaper-admin/static/js/2.19f6e298.chunk.js",
-    "static/js/2.19f6e298.chunk.js.map": "/arena-wallpaper-admin/static/js/2.19f6e298.chunk.js.map",
+    "static/js/2.1423f9c4.chunk.js": "/arena-wallpaper-admin/static/js/2.1423f9c4.chunk.js",
+    "static/js/2.1423f9c4.chunk.js.map": "/arena-wallpaper-admin/static/js/2.1423f9c4.chunk.js.map",
     "index.html": "/arena-wallpaper-admin/index.html",
-    "precache-manifest.06e8a87106771e08c48ef57aee9615ed.js": "/arena-wallpaper-admin/precache-manifest.06e8a87106771e08c48ef57aee9615ed.js",
+    "precache-manifest.f72919820809e1a3c5c0bb9ec442a922.js": "/arena-wallpaper-admin/precache-manifest.f72919820809e1a3c5c0bb9ec442a922.js",
     "service-worker.js": "/arena-wallpaper-admin/service-worker.js",
     "static/css/main.5ecd60fb.chunk.css.map": "/arena-wallpaper-admin/static/css/main.5ecd60fb.chunk.css.map",
-    "static/js/2.19f6e298.chunk.js.LICENSE.txt": "/arena-wallpaper-admin/static/js/2.19f6e298.chunk.js.LICENSE.txt"
+    "static/js/2.1423f9c4.chunk.js.LICENSE.txt": "/arena-wallpaper-admin/static/js/2.1423f9c4.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.2fa121a3.js",
-    "static/js/2.19f6e298.chunk.js",
+    "static/js/2.1423f9c4.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.73baa246.chunk.js"
+    "static/js/main.e7900be9.chunk.js"
   ]
 }
