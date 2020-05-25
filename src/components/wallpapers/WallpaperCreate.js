@@ -1,5 +1,5 @@
 import React, {useCallback} from 'react';
-import { Create, SimpleForm, TextInput, SaveButton, Toolbar,  ImageInput, ImageField } from 'react-admin';
+import { Create, SimpleForm, TextInput, SaveButton, Toolbar,  ImageInput, ImageField, ReferenceInput, SelectInput } from 'react-admin';
 import { useForm } from 'react-final-form';
 import { API_URL } from '../../constants/api';
 
@@ -28,17 +28,22 @@ const SaveWithNoteButton = ({ handleSubmitWithRedirect, ...props }) => {
 const PostCreateToolbar = props => (
     <Toolbar {...props} >
         <SaveWithNoteButton
-            label="Custom Save"
+            label="Save"
             redirect="list"
             submitOnEnter={false}
         />
     </Toolbar>
 );
 
-export const CategoryCreate = (props) => (
+export const WallpaperCreate = (props) => (
     <Create {...props}>
         <SimpleForm toolbar={<PostCreateToolbar />}>
             <TextInput source="name" />
+            <TextInput source="description" />
+            <TextInput source="hero" />
+            <ReferenceInput label="Category" source="categoryId" reference="categories">
+                <SelectInput optionText="name" />
+            </ReferenceInput>
             <ImageInput source="image" label="Related pictures" accept="image/*" placeholder={<p>Drop your file here</p>}>
                 <ImageField source="src" title="title" />
             </ImageInput>
